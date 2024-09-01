@@ -15,7 +15,7 @@ export const Home = () => {
                     <button className="Toggle-Button"><NavLink to = "/event">Past Events</NavLink></button>
                 </div>
                 <div className="Home-Left">
-                    <img src="public/Backgrounds/Home-Page.png" alt="" />
+                    <img src="public/Backgrounds/Home-Page.PNG" alt="" />
                 </div>
             </div>
             <SponsorMarquee/>
