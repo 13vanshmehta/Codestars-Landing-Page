@@ -1,0 +1,79 @@
+.Container-Footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    min-height: 100hv;
+}
+
+.About-Us{
+    display: block;
+    justify-content: left;
+    width: 300px;
+    padding: 30px;
+}
+
+.About-Us h1{
+    padding-bottom: 10px;
+}
+
+.Address{
+    display: block;
+    justify-content: center;
+    width: 250px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.Address h1{
+    padding-bottom: 10px;
+}
+
+.Address a{
+    color: white;
+    text-decoration: none;
+}
+
+.Address a:hover{
+    color: #023978;
+    transition: 0.2s ease-in-out;
+}
+
+.Links{
+    display: block;
+    justify-content: center;
+    width: 250px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.Links li{
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.Links a{
+    text-decoration: none;
+    color: white;
+}
+
+.Links a:hover{
+    color: #023978;
+    transition: 0.2s ease-in-out;
+}
+
+.Links h1{
+    padding-bottom: 10px;
+}
+
+.Follow-Us{
+    display: block;
+    justify-content: right;
+    width: 250px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.Follow-Us a{
+    padding: 7px;
+}

@@ -1,0 +1,22 @@
+.About-Us-Style{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
+}
+
+.About-Us-Style p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.About-Us-Style h2{
+    text-align: left;
+    font-size: 3.0rem;
+    background: linear-gradient(to right, #3498db, #4e1e89, #07224F, #6c00ef);
+    -webkit-background-clip: text;
+    background-clip: none; /* To fix the warning */
+    color: transparent;
+}

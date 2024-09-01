@@ -1,0 +1,22 @@
+.Sponser-Marque-Style{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.Sponser-Marque-Style p{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Sponser-Marque-Style h2{
+    text-align: right;
+    font-size: 3.0rem;
+    background: linear-gradient(to right, #3498db, #04d3ea, #4e1e89);
+    -webkit-background-clip: text;
+    background-clip: none; /* To fix the warning */
+    color: transparent;
+}

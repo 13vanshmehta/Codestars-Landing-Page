@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: "Baskervville SC", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  background-image: url("public/Backgrounds/Background--01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: rgb(14, 13, 13);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main  Styling*/
+
+.Container-Home{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  height: 88vh;
+  width: 100%;
+}
+
+.Home-Right{
+  font-size: 50px;
+  font-weight: 800;
+  padding-top: 150px;
+  padding-left: 30px;
+}
+
+.Home-Right button{
+  margin: 10px;
+}
+
+.Home-Right p{
+  color: black;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Home-Right .Highlight {
+  font-size: 3.4rem;
+  background: linear-gradient(to right, #3498db, #04d3ea, #4e1e89, #07224F);
+  -webkit-background-clip: text;
+  background-clip: none; /* To fix the warning */
+  color: transparent;
+}
+
+
+.Home-Left img{
+  height: 700px;
+  width: 700px;
+}
+
+.Toggle-Button{
+  background-color: #4e1e89;
+  border: 2.0px solid #41d1e1;
+  border-radius: 50px; 
+  padding: 10px 20px;  
+  font-size: 20px;     
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; 
+  background-size: 200%; 
+}
+
+.Toggle-Button a{
+  /* color: black; */
+  color: white;
+  font-family: "Baskervville SC", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.About-btn{
+  width: 150px;
+}
+
+
+
+/* Events - Page Styling */
+
+/* Our Team Page Styling */
+
+/* Our Sponsor Page Styling */
+
+/* Contact Page Styling */
+
+.Container{
+  background-image: url(public/Backgrounds/Contact-Background-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Container h1{
+  text-align: center;
+  font-size: 3.4rem;
+  background: linear-gradient(to right, #3498db, #04d3ea, #4e1e89, #07224F);
+  -webkit-background-clip: text;
+  background-clip: none; /* To fix the warning */
+  color: transparent;
+}
+
+.Container p{
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding: 20px;
+}
+
+.Container-Contact{
+  color: black;
+  padding: 30px;
+  display: flex;
+}
+
+
+.Contact-Details{
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.Contact-Details p{
+  padding-top: 30px;
+}
+
+
+.Contact-Details img{
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+
+.Contact-Form{
+  height: 300px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 200px;
+  width: 700px;
+  margin-right: 50px
+}
+
+.Contact-Form form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Contact-Form label{
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.Contact-Form input,
+.Contact-Form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid #00c6ff;
+  border-radius: 5px;
+  color: black;
+  background-color: transparent;
+}
+
+.Contact-Form button {
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Contact-Form button:hover {
+  background-color: #009ec3;
+}

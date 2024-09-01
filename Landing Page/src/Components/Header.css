@@ -1,0 +1,90 @@
+.Container-Header{
+    display: inline-flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.Codestars-Logo{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.Codestars-Logo img{
+    height: 70px;
+    width: 70px;
+}
+
+.Codestars-Logo span{
+    color: #07224F;
+}
+
+.Codestars-Logo .Logo-Name{
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+nav ul{
+    display: flex;
+    gap: 3.2rem;
+    padding-top: 28px;
+    padding-left: 60%;
+    
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.56;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #07224F;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-out;
+}
+
+
+nav ul li a:hover::after{
+    transform: scale(1);
+}
+
+a{
+    text-decoration: none;
+    /* color: #023978; */
+    color: #07224F;
+}
+
+.Contact-Us{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 37rem;
+}
+
+.Toogle-Button{
+    background-color: #07224F;
+    border: 2.0px solid #D6F2F5;
+    border-radius: 50px; 
+    padding: 10px 20px;  
+    font-size: 20px;     
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; 
+    /* background-image: linear-gradient(90deg, transparent, rgba(238, 169, 73, 0.882), transparent); */
+    background-size: 200%; 
+}
+
+.Toogle-Button a{
+    color: white;
+}
